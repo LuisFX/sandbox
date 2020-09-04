@@ -1,0 +1,17 @@
+STORAGE: NONE
+RESTRICTION: || (== netcoreapp3.0) (== netstandard2.0) (== netstandard2.1)
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    expecto (9.0.2)
+      FSharp.Core (>= 4.6)
+      Mono.Cecil (>= 0.11.2)
+    FsCheck (3.0.0-alpha4)
+      FSharp.Core (>= 4.2.3)
+      NETStandard.Library (>= 1.6.1)
+      System.ValueTuple (>= 4.5)
+    FSharp.Core (4.7.2)
+    Microsoft.NETCore.Platforms (3.1.2)
+    Mono.Cecil (0.11.2)
+    NETStandard.Library (2.0.3)
+      Microsoft.NETCore.Platforms (>= 1.1)
+    System.ValueTuple (4.5)

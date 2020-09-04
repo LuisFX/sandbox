@@ -1,0 +1,5 @@
+{
+    "FSharp.addFsiWatcher": true,
+    "FSharp.infoPanelShowOnStartup": true,
+    "FSharp.infoPanelReplaceHover": true
+}
