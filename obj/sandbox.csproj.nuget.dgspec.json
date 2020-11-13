@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/ssd/code/sandbox/sandbox.csproj": {}
+  },
+  "projects": {
+    "/Volumes/ssd/code/sandbox/sandbox.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/ssd/code/sandbox/sandbox.csproj",
+        "projectName": "sandbox",
+        "projectPath": "/Volumes/ssd/code/sandbox/sandbox.csproj",
+        "packagesPath": "/Users/luisfx/.nuget/packages/",
+        "outputPath": "/Volumes/ssd/code/sandbox/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/luisfx/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[3.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

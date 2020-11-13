@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "xoryHQqE8cYpu3S5IXo5B2tQdbbZ/AS9YvcfR2XtQFXQhuzHVG/uNCGVDfx1HyFbs0iz1LDCd5JTIwpokO1uPA==",
+  "success": true,
+  "projectFilePath": "/Volumes/SSD_500GB/code/sandbox/book-exercises/stylish_fs/StylishFS/StylishFS.fsproj",
+  "expectedPackageFiles": [
+    "/Users/luisfx/.nuget/packages/fsharp.core/4.7.2/fsharp.core.4.7.2.nupkg.sha512",
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/luisfx/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

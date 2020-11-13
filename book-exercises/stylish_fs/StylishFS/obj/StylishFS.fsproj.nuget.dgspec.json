@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/SSD_500GB/code/sandbox/book-exercises/stylish_fs/StylishFS/StylishFS.fsproj": {}
+  },
+  "projects": {
+    "/Volumes/SSD_500GB/code/sandbox/book-exercises/stylish_fs/StylishFS/StylishFS.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/SSD_500GB/code/sandbox/book-exercises/stylish_fs/StylishFS/StylishFS.fsproj",
+        "projectName": "StylishFS",
+        "projectPath": "/Volumes/SSD_500GB/code/sandbox/book-exercises/stylish_fs/StylishFS/StylishFS.fsproj",
+        "packagesPath": "/Users/luisfx/.nuget/packages/",
+        "outputPath": "/Volumes/SSD_500GB/code/sandbox/book-exercises/stylish_fs/StylishFS/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/luisfx/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.2, )",
+              "generatePathProperty": true
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true,
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

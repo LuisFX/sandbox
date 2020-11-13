@@ -1,7 +1,5 @@
 // https://stackoverflow.com/a/2429874/9549817
 
-let (|DivisibleBy|_|) divisor i = 
-
   // If the value is divisible, then we return 'Some()' which
   // represents that the active pattern succeeds - the '()' notation
   // means that we don't return any value from the pattern (if we
@@ -10,6 +8,7 @@ let (|DivisibleBy|_|) divisor i =
   //     | DivisibleBy 3 res -> .. (res would be asigned value 2)
   // None means that pattern failed and that the next clause should 
   // be tried (by the match expression)
+let (|DivisibleBy|_|) divisor i = 
   if i % divisor = 0 then Some () else None 
 
 for i in 1..100 do
