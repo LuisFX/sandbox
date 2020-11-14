@@ -1,8 +1,7 @@
 {
     "azureFunctions.deploySubpath": "bin/Release/netcoreapp3.1/publish",
-    "azureFunctions.projectLanguage": "F#",
+    "azureFunctions.projectLanguage": "C#",
     "azureFunctions.projectRuntime": "~3",
     "debug.internalConsoleOptions": "neverOpen",
-    "azureFunctions.preDeployTask": "publish",
-    "azureFunctions.templateFilter": "All"
+    "azureFunctions.preDeployTask": "publish"
 }
