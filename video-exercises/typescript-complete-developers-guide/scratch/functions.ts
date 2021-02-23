@@ -14,4 +14,18 @@ const multiply = function (a: number, b: number) : number {
     return a * b
 }
 
-export default add
+class Test {
+    constructor(private readonly start: Date) {}
+
+}
+
+export default Test
+
+
+export default class Gigasecond {
+    constructor(private readonly start: Date) {}
+  
+    date(): Date {
+      return new Date(this.start.getTime() + 10 ** 12);
+    }
+}
